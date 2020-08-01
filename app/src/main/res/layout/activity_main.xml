@@ -7,6 +7,36 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/dayOfYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dayOfYear"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/bank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/dayOfYear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900" />
+
+    <TextView
         android:id="@+id/bank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
